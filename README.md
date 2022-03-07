@@ -50,7 +50,7 @@ The `repository` object supports the following keys:
 - `template_zip_url_format` - string - A string which will be passed to
   [Python's string formatter](https://docs.python.org/3.9/tutorial/inputoutput.html#the-string-format-method)
   to compute the URL for a given package.
-  - **Default:** `"{repo.base_url}/releases/download/r{release}/{package_name}-{release}.zip`
+  - **Default:** `{repo.base_url}/releases/download/r{release}/{package_name}-{release}.zip`
   - The formatter will pass the following values:
     - `repo` - The `repository` object itself.
     - `package_name` - The `name` value from `template`.
