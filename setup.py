@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sceptre_package_template_handler",
-    version="0.1.0",
+    version="0.0.0",
     author="Dan Boitnott",
     author_email="boitnott@sigcorp.com",
     description="A template handler for sceptre for downloadable packages",
